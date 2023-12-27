@@ -18,8 +18,11 @@ Jupyter NoteBook
 
 访问我的网站：
 
-    - [Jupyter Notebook](http://1.94.53.219:9000/tree)
-    - [phpmyadmin(MySQL可视化)](http://1.94.53.219/phpmyadmin)
+- [Jupyter Notebook](http://1.94.53.219:9000/tree)
+
+- [phpmyadmin(MySQL可视化)](http://1.94.53.219/phpmyadmin)
+
+
 
 ## 参考文档和链接
 

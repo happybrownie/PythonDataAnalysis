@@ -32,3 +32,6 @@ Jupyter NoteBook
 
 -[2023年（第16届）中国大学生计算机设计大赛 大数据主题赛公告 (dhu.edu.cn)](https://jsjds.dhu.edu.cn/2023/0124/c20379a320418/page.htm)
 
+
+
+[Climate Change: Earth Surface Temperature Data (kaggle.com)](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data/data)

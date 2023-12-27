@@ -1,4 +1,4 @@
-# python数据分析实例
+# Python数据分析实例
 python数据分析实例，并且使用动态数据库Mysql
 
 ## 安装依赖

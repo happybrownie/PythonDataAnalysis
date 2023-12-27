@@ -35,3 +35,7 @@ Jupyter NoteBook
 
 
 [Climate Change: Earth Surface Temperature Data (kaggle.com)](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data/data)
+
+
+
+[Predicting Climate Change Data with Python | Kaggle](https://www.kaggle.com/code/tytibbets/predicting-climate-change-data-with-python)

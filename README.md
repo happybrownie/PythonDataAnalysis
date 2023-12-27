@@ -18,12 +18,14 @@ Jupyter NoteBook
 
 访问我的网站：
 
-​    - [Jupyter Notebook](http://1.94.53.219:9000/tree)
-​    - [phpmyadmin(MySQL可视化)](http://1.94.53.219/phpmyadmin)
+    - [Jupyter Notebook](http://1.94.53.219:9000/tree)
+    - [phpmyadmin(MySQL可视化)](http://1.94.53.219/phpmyadmin)
 
 ## 参考文档和链接
 
 -[AWS服务器上在ubuntu系统上安装部署MySQL和Phpmyadmin（超详细图文）_ubuntu phpmyadmin-CSDN博客](https://blog.csdn.net/weixin_45913922/article/details/130100542)
+
+
 
 -[2023年（第16届）中国大学生计算机设计大赛 大数据主题赛公告 (dhu.edu.cn)](https://jsjds.dhu.edu.cn/2023/0124/c20379a320418/page.htm)
 

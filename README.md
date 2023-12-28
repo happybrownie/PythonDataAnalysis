@@ -18,10 +18,16 @@ Jupyter NoteBook
 
 访问我的网站：
 
-- [Jupyter Notebook](http://1.94.53.219:9000/tree)
+- [Jupyter Notebook](http://1.94.53.219:9000/tree)(不可用)
 
-- [phpmyadmin(MySQL可视化)](http://1.94.53.219/phpmyadmin)
+- [phpmyadmin(MySQL可视化)](http://1.94.53.219/phpmyadmin)(不可用)
 
+
+## TODO
+
+全球气候变暖与能源转型项目
+    全文件echarts转换
+    notebook上运行flask
 
 
 ## 参考文档和链接

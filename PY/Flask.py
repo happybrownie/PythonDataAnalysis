@@ -80,7 +80,7 @@ html_dir = "S:/GIT/PythonDataAnalysis/HTML"
 
 @app.route('/disaster-chart')
 def disaster_chart():
-    html_file = 'Disaster_Type_Frequency.html'
+    html_file = 'Disaster_Frequency_WordCloud.html'
     return send_from_directory(html_dir, html_file)
 
 @app.route('/greenhouse_gas_emissions')

@@ -34,6 +34,9 @@ Jupyter NoteBook
 
 ## 参考文档和链接
 
+-[Apache ECharts](https://echarts.apache.org/zh/index.html)
+
+
 -[AWS服务器上在ubuntu系统上安装部署MySQL和Phpmyadmin（超详细图文）_ubuntu phpmyadmin-CSDN博客](https://blog.csdn.net/weixin_45913922/article/details/130100542)
 
 

@@ -32,12 +32,11 @@ Jupyter NoteBook
 - notebook上运行flask
 
 ## 参考文档和链接
+-[2023年（第16届）中国大学生计算机设计大赛 大数据主题赛公告 (dhu.edu.cn)](https://jsjds.dhu.edu.cn/2023/0124/c20379a320418/page.htm)
 
 -[Apache ECharts](https://echarts.apache.org/zh/index.html)
 
--[AWS服务器上在ubuntu系统上安装部署MySQL和Phpmyadmin（超详细图文）_ubuntu phpmyadmin-CSDN博客](https://blog.csdn.net/weixin_45913922/article/details/130100542)
-
--[2023年（第16届）中国大学生计算机设计大赛 大数据主题赛公告 (dhu.edu.cn)](https://jsjds.dhu.edu.cn/2023/0124/c20379a320418/page.htm)
+-[AWS服务器上在ubuntu系统上安装部署MySQL和Phpmyadmin（超详细图文）](https://blog.csdn.net/weixin_45913922/article/details/130100542)
 
 -[Climate Change: Earth Surface Temperature Data (kaggle.com)](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data/data)
 

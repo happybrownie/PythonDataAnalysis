@@ -78,7 +78,7 @@ Jupyter NoteBook
 
 在这一阶段，我们使用 Python 进行数据探索和统计分析。分析可能包括趋势识别、关联性分析和模式识别等。
 
-- `Numpy`: NumPy 是 Python 的一个科学计算库，专注于对多维数组的操作。
+1. **`Numpy`**: NumPy 是 Python 的一个科学计算库，专注于对多维数组的操作。
 
 主要特点：
 - 高性能的多维数组对象 ndarray。
@@ -93,7 +93,7 @@ Jupyter NoteBook
 - 通用函数（ufunc）：提供快速的元素级数组函数，如 sin(), cos(), exp() 等。
 - 在实际使用中，Pandas 和 NumPy 经常结合使用，Pandas 用于灵活的数据处理和分析，而 NumPy 则用于进行复杂的数值运算。
 
-- `Pandas`: Pandas 是一个强大的数据分析和操作工具，主要用于处理表格数据。
+- 2. **`Pandas`**: Pandas 是一个强大的数据分析和操作工具，主要用于处理表格数据。
   
 主要特点：
 - 处理不同类型的数据：时间序列、非结构化数据等。
@@ -168,6 +168,7 @@ MySQL 是一个广泛使用的开源关系型数据库管理系统（RDBMS），
 ## 数据可视化 - Echarts
 
 最后一步是数据可视化。我们使用 Echarts 创建动态和交互式的图表，这有助于更好地理解数据和分析结果。图表可能包括柱状图、折线图、饼图等。
+
 -[Apache ECharts](https://echarts.apache.org/zh/index.html)
 
 ## Flask 与 MySQL 和 Echarts 集成

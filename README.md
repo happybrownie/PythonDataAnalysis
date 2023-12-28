@@ -1,4 +1,5 @@
 # Python数据分析实例
+# - [跳转到更新](# User Manual)
 
 python数据分析实例，并且使用动态数据库MySQL,再通过Echarts输出可视化
 
@@ -42,7 +43,7 @@ Jupyter NoteBook
 
 -[Predicting Climate Change Data with Python | Kaggle](https://www.kaggle.com/code/tytibbets/predicting-climate-change-data-with-python)
 
-[跳转到更新](#User Manual)
+[跳转到更新](# User Manual)
 # User Manual
 # Python 数据分析实例 - 使用 MySQL 和 Echarts
 

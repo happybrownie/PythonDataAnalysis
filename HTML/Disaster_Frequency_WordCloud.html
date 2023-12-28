@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Disaster Type Word Cloud</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.0.2/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud/dist/echarts-wordcloud.min.js"></script>
+
+
+</head>
+
+<body>
+    <div id="main" style="width: 800px; height: 600px;"></div>
+    <script>
+        var myChart = echarts.init(document.getElementById('main'));
+
+        var option = {
+            series: [{
+                type: 'wordCloud',
+                gridSize: 2,
+                sizeRange: [12, 100],
+                rotationRange: [-90, 90],
+                shape: 'square',
+                width: 600,
+                height: 400,
+                drawOutOfBound: true,
+                textStyle: {
+                    fontFamily: '微软雅黑',
+                    color: function () {
+                        return 'rgb(' + [
+                            Math.round(Math.random() * 250),
+                            Math.round(Math.random() * 250),
+                            Math.round(Math.random() * 250)
+                        ].join(',') + ')';
+                    }
+                },
+                data: []
+            }]
+        };
+
+        myChart.setOption(option);
+
+        fetch('/disaster_type_data')
+            .then(response => response.json())
+            .then(data1 => {
+                fetch('/disaster_subtype_data')
+                    .then(response => response.json())
+                    .then(data2 => {
+                        // 合并 data1 和 data2
+                        const combinedData = data1.concat(data2).map(item => {
+                            return {
+                                name: item.Disaster_Type || item.Disaster_Subtype,
+                                value: item.Frequency
+                            };
+                        });
+
+                        // 更新 ECharts 选项
+                        myChart.setOption({
+                            series: [{
+                                type: 'wordCloud',
+                                // 其他配置...
+                                data: combinedData
+                            }]
+                        });
+                    });
+            });
+
+        // fetch('/disaster_type_data')
+        //     .then(function (response) {
+        //         return response.json();
+        //     })
+        //     .then(function (data) {
+        //         option.series[0].data = data.map(function (item) {
+        //             return {
+        //                 name: item.Disaster_Type,
+        //                 // name: item.Disaster_Subtype,
+        //                 value: item.Frequency
+        //             };
+        //         });
+        //         myChart.setOption(option);
+        //     });
+
+        //     fetch('/disaster_subtype_data')
+        //     .then(function (response) {
+        //         return response.json();
+        //     })
+        //     .then(function (data) {
+        //         option.series[0].data = data.map(function (item) {
+        //             return {
+        //                 name: item.Disaster_Subtype,
+        //                 value: item.Frequency
+        //             };
+        //         });
+        //         myChart.setOption(option);
+        //     });
+    </script>
+</body>
+
+</html>

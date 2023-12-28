@@ -20,7 +20,7 @@ Jupyter NoteBook
 
 - [Jupyter Notebook](http://1.94.53.219:9000/tree)(不可用)
 
-- [phpmyadmin(MySQL可视化)](http://1.94.53.219:8888/phpmyadmin)(可用)
+- [phpmyadmin(MySQL可视化)](http://1.94.53.219:8888/phpmyadmin/index.php?lang=zh_cn)(可用)
 
 
 ## TODO

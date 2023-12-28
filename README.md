@@ -27,9 +27,9 @@ Jupyter NoteBook
 
 全球气候变暖与能源转型项目
 
-    - [全文件echarts转换]
+- [全文件echarts转换]
 
-    - [notebook上运行flask]
+- [notebook上运行flask]
 
 
 ## 参考文档和链接

@@ -1,6 +1,6 @@
 # Python数据分析实例
 
-python数据分析实例，并且使用动态数据库Mysql
+python数据分析实例，并且使用动态数据库MySQL,再通过Echarts输出可视化
 
 ## 安装依赖
 
@@ -27,9 +27,9 @@ Jupyter NoteBook
 
 全球气候变暖与能源转型项目
 
-    全文件echarts转换
+    - [全文件echarts转换]
 
-    notebook上运行flask
+    - [notebook上运行flask]
 
 
 ## 参考文档和链接
